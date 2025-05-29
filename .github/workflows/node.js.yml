@@ -80,6 +80,6 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: ./capstone-app
-        file: ./capstone-app/Dockerfile
+        file: ./Dockerfile
         push: true
         tags: sadiqmohd589/capstone-app:latest
