@@ -55,7 +55,7 @@ jobs:
 
     - name: Install backend dependencies
       run: npm install
-      working-directory: ./capstone-app/Backend
+      working-directory: ./Backend
 
     # - name: Lint and test backend
     #   run: |
