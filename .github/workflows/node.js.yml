@@ -65,7 +65,7 @@ jobs:
 
     - name: Build frontend (no build step required)
       run: echo "No frontend build step defined"
-      working-directory: ./capstone-app/Frontend
+      working-directory: ./Frontend
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
